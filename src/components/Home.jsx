@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import homeVideo from "../assets/video/homeVideo.mp4"; // Sample Video
-import homeImg from "../assets/image/courses.jpg"; 
-import profPic from "../assets/image/pic1.jpg"; 
-import profPic2 from "../assets/image/pic2.jpg"; 
+import homeImg from "../assets/image/courses.jpg";
+import profPic from "../assets/image/pic1.jpg";
+import profPic2 from "../assets/image/pic2.jpg";
 import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import comm1 from "../assets/image/comm1.jpeg";
 
 const Home = () => {
   const professorReview = {
@@ -72,6 +73,33 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="w-full pt-[6rem] pb-[2rem] px-4 bg-white">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-">
+          <div className="w-full flex flex-col p-4 my-4 rounded-lg">
+            <h1 className="text-5xl font-bold text-left py-4 md:my-[2rem] my-[1rem] leading-tight">
+              Unleash your potential with{" "}
+              <span className="text-[#f2be22] ">Learn Develop Grow.</span>
+            </h1>
+            <p className="font-bold text-gray-500 text-xl">
+              Our site offers the inspiration and resources you need to develop
+              yourself and reach your goals.
+            </p>
+            <NavLink to="/signup">
+              <button className="w-full p-2 bg-[#f2be22] text-black font-bold mt-4 rounded-lg md:w-[30%] text-center hover:scale-105 duration-150">
+                Get in touch
+              </button>
+            </NavLink>
+          </div>
+          <div className="relative flex items-center justify-end w-full h-0 pb-[75%] rounded-r-lg">
+            <img
+              src={comm1}
+              alt="/"
+              className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80%] h-auto object-cover rounded-3xl"
+            />
+          </div>
+        </div>
+      </div>
       <div className="w-full pt-[6rem] pb-[2rem] px-4 bg-white">
         <h1 className="text-[#000300] text-5xl md:text-5xl lg:text-6xl font-bold text-center mb-[5rem]">
           Check out our <span className="text-[#f2be22]">courses.</span>
@@ -133,7 +161,11 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic} alt="/" />
+                  <img
+                    className="w-12 h-12 rounded-full mr-4 bg-white"
+                    src={profPic}
+                    alt="/"
+                  />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">
                       Shuvajit Patra
@@ -147,7 +179,11 @@ const Home = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic2} alt="/" />
+                  <img
+                    className="w-12 h-12 rounded-full mr-4 bg-white"
+                    src={profPic2}
+                    alt="/"
+                  />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">
                       Nasuil Gazi

@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import FAQSection from "./components/FAQ";
 import ProfessorReviewSection from "./components/ProfessorReview";
 import Community from "./components/Community";
+import Connect from "./components/Connect";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/email" element={<Connect />}></Route>
           <Route path="/community" element={<Community />}></Route>
           <Route path="/courses" element={<Courses />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
@@ -25,6 +27,7 @@ function App() {
           <Route path="/faqsection" element={<FAQSection />}></Route>
           <Route path="/professorreviewsection" element={<ProfessorReviewSection />}></Route>
         </Routes>
+        <Community />
         <Footer />
       </BrowserRouter>
     </>
