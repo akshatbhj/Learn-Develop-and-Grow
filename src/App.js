@@ -5,6 +5,7 @@ import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import Courses from "./components/Courses";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={<SignUp />}></Route>
         </Routes>
         <Testimonials />
+        <Footer />
       </BrowserRouter>
     </>
   );
