@@ -37,12 +37,12 @@ const Navbar = () => {
           </li>
         </NavLink>
         <NavLink to="/signup">
-          <button className="p-2 mx-1 lg:mx-4 w-[120px] bg-[#f2be22] text-black font-bold rounded-full hover:text-white duration-150">
+          <button className="p-2 mx-2 lg:mx-4 w-[120px] bg-transparent border-2 border-[#f2be22] text-[#f2be22] font-bold rounded-full hover:text-black hover:bg-[#f2be22] duration-150">
             Sign Up
           </button>
         </NavLink>
         <NavLink to="/signin">
-          <button className="p-2 mx-2 lg:mx-2 w-[120px] bg-[#f2be22] text-black font-bold rounded-full hover:text-white duration-150">
+          <button className="p-2.5 mx-2 lg:mx-2 w-[120px] bg-[#f2be22] text-black font-bold rounded-full hover:text-white duration-150">
             Sign In
           </button>
         </NavLink>
@@ -85,18 +85,6 @@ const Navbar = () => {
               Sign In
             </button>
           </NavLink>
-          {/* <div className="grid grid-flow-row mt-80 ">
-            <NavLink to="/signup">
-              <button className="p-4 mt-20 mx-auto w-full bg-[#f2be22] text-black font-bold rounded-md hover:text-white">
-                Sign Up
-              </button>
-            </NavLink>
-            <NavLink to="/signin">
-              <button className="p-4 mt-4 mx-auto w-full bg-[#f2be22] text-black font-bold rounded-md hover:text-white">
-                Login
-              </button>
-            </NavLink>
-          </div> */}
         </ul>
       </div>
     </div>
