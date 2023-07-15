@@ -41,7 +41,7 @@ const FAQSection = () => {
           <div
             key={index}
             className={`bg-[#202020] text-[#f2be22] rounded-lg shadow-md p-6 ${
-              activeIndex === index ? "bg-white-300" : ""
+              activeIndex === index ? "bg-white-100" : ""
             }`}
           >
             <button

@@ -7,7 +7,7 @@ import Courses from "./components/Courses";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import FAQSection from "./components/FAQ";
-
+import ProfessorReviewSection from "./components/ProfessorReview";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="/signup" element={<SignUp />}></Route>
         </Routes>
         <Testimonials />
+        <ProfessorReviewSection />
         <FAQSection />
         <Footer />
       </BrowserRouter>
