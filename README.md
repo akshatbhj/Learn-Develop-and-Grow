@@ -2,6 +2,8 @@
 
 This repository contains the frontend code for a web application built with React.js, JavaScript, and Tailwind CSS. The web app is designed for a startup that sells courses on personality development. It provides an intuitive and user-friendly interface for potential customers to browse and purchase the available courses.
 
+- Check the web app here - https://learn-develop-and-grow.vercel.app/
+
 ## Features
 
 - Course Listings: Browse through a catalog of personality development courses with detailed information about each course, including the course title, description, instructor, duration, and price.
