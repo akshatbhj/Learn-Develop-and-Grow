@@ -16,10 +16,10 @@ const Home = () => {
             className="rounded-[3%] mx-auto my-4 -z-10 "
           ></video>
           <div className="flex flex-col justify-center items-center">
-            <p className="text-[#f2be22] font-bold lg:text-5xl lg:p-8 md:text-4xl sm:text-3xl text-3xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
+            <p className="text-[#f2be22] font-bold lg:text-5xl lg:p-8 md:text-4xl sm:text-3xl text-4xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
               Improve Your Skills Faster
             </p>
-            <p className="font-bold text-gray-500 lg:pb-4 md:text-2xl md:ml-8 mx-4 mt-4 md:mt-2 sm:mx-8">
+            <p className="font-bold text-gray-500 lg:pb-4 md:text-2xl text-xl md:ml-8 mx-4 mt-4 md:mt-2 sm:mx-8">
               Speed up the skill acquisition process by finding unlimited
               courses that matches your niche.
             </p>
