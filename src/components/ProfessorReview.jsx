@@ -31,10 +31,6 @@ const ProfessorReviewSection = () => {
             {" "}
             - Professor Firoz
           </p>
-          {/* <p className="text-gray-800 text-lg">{professorReview.review}</p> */}
-          {/* <p className="text-gray-500 text-lg mt-4">
-            &mdash; {professorReview.name}
-          </p> */}
         </div>
       </div>
     </div>
