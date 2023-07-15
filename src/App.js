@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import FAQSection from "./components/FAQ";
 import ProfessorReviewSection from "./components/ProfessorReview";
+import Community from "./components/Community";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/community" element={<Community />}></Route>
           <Route path="/courses" element={<Courses />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
