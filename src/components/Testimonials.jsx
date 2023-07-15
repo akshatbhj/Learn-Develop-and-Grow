@@ -1,5 +1,6 @@
 import React from "react";
-import { MdAccountBox } from "react-icons/md";
+import profPic from "../assets/image/pic1.jpg"; 
+import profPic2 from "../assets/image/pic2.jpg"; 
 
 const Testimonials = () => {
   return (
@@ -13,11 +14,7 @@ const Testimonials = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                  <MdAccountBox
-                    width={100}
-                    fontSize={75}
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                  />
+                    <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic} alt="/" />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">Shuvajit Patra</h4>
                   </div>
@@ -29,11 +26,7 @@ const Testimonials = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                  <MdAccountBox
-                    width={100}
-                    fontSize={75}
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                  />
+                <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic2} alt="/" />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">Nasuil Gazi</h4>
                   </div>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import homeVideo from "../assets/video/homeVideo.mp4"; // Sample Video
-import homeImg from "../assets/image/courses.jpg"; // Sample Video
+import homeImg from "../assets/image/courses.jpg"; 
+import profPic from "../assets/image/pic1.jpg"; 
+import profPic2 from "../assets/image/pic2.jpg"; 
 import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
@@ -131,11 +133,7 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                  <MdAccountBox
-                    width={100}
-                    fontSize={75}
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                  />
+                <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic} alt="/" />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">
                       Shuvajit Patra
@@ -149,11 +147,7 @@ const Home = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
                 <div className="flex items-center mb-4">
-                  <MdAccountBox
-                    width={100}
-                    fontSize={75}
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                  />
+                <img className="w-12 h-12 rounded-full mr-4 bg-white" src={profPic2} alt="/" />
                   <div>
                     <h4 className="text-lg font-bold text-[#f2be22]">
                       Nasuil Gazi
