@@ -1,6 +1,7 @@
 import React from "react";
 import homeVideo from "../assets/video/homeVideo.mp4"; // Sample Video
 import { MdAccountBox } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,9 +24,11 @@ const Home = () => {
               Speed up the skill acquisition process by finding unlimited
               courses that matches your niche.
             </p>
-            <button className="bg-[#f2be22] w-[200px] rounded-md my-6 mx-auto font-semibold py-3 text-black md:mx-0 hover:text-white hover:scale-105 duration-150 mt-6 sm:mt-6 md:mt-4 lg:mt-2">
-              Get in touch
-            </button>
+            <NavLink to="/signup">
+              <button className="bg-[#f2be22] w-[200px] rounded-md my-6 mx-auto font-semibold py-3 text-black md:mx-0 hover:text-white hover:scale-105 duration-150 mt-6 sm:mt-6 md:mt-4 lg:mt-2">
+                Get in touch
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
