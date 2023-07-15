@@ -27,12 +27,12 @@ const Navbar = () => {
       </h1>
       <ul className="hidden md:flex">
         <NavLink to="/">
-          <li className="p-2 lg:mx-2 hover:cursor-pointer hover:text-[#f2be22] hover:scale-105 duration-150">
+          <li className="p-2 text-center lg:mx-2 hover:cursor-pointer hover:text-[#f2be22] hover:scale-105 duration-150">
             Home
           </li>
         </NavLink>
         <NavLink to="/courses">
-          <li className="p-2 mx-3 hover:cursor-pointer hover:text-[#f2be22] hover:scale-105 duration-150">
+          <li className="p-2 mx-4 hover:cursor-pointer hover:text-[#f2be22] hover:scale-105 duration-150">
             Courses
           </li>
         </NavLink>

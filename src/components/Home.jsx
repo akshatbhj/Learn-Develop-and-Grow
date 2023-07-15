@@ -34,10 +34,29 @@ const Home = () => {
       </div>
       <div className="w-full pt-[6rem] pb-[2rem] px-4 bg-white">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-          <div className="w-full flex flex-col p-4 my-4 rounded-lg">
-            <h1 className="text-5xl font-bold text-center py-8 md:my-[4rem] my-[2rem]">
+          <div className="w-full flex flex-col p-4 my-4 rounded-lg text-center">
+            <h1 className="text-5xl font-bold text-center pt-8 md:my-[4rem] my-[2rem]">
               Check out our <span className="text-[#f2be22]">courses</span>
             </h1>
+            <NavLink>
+              <button class="relative bg-gradient-to-r from-gray-900 to-black hover:from-gray-800 hover:to-black text-white font-semibold py-2 px-16 rounded-md transition duration-300 ease-in-out shadow-md">
+                More
+                <svg
+                  class="w-4 h-4 absolute top-1/2 right-3 transform -translate-y-1/2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+              </button>
+            </NavLink>
           </div>
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <MdAccountBox
