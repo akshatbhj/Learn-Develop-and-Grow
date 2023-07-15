@@ -5,3 +5,8 @@
 body {
   background-color: #000300;
 }
+
+.google-map * {
+  width: 100%;
+  border: 0;
+}
