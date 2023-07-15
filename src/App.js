@@ -6,6 +6,7 @@ import SignUp from "./components/SignUp";
 import Courses from "./components/Courses";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import FAQSection from "./components/FAQ";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/signup" element={<SignUp />}></Route>
         </Routes>
         <Testimonials />
+        <FAQSection />
         <Footer />
       </BrowserRouter>
     </>
