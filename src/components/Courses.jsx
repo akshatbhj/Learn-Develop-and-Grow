@@ -1,14 +1,13 @@
 import React from "react";
+import homeImg from "../assets/image/courses.jpg";
 import { MdAccountBox } from "react-icons/md";
 
 const Courses = () => {
   return (
     <div className="w-full pt-[12rem] pb-[2rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full flex flex-col p-4 my-4 rounded-lg">
-          <h1 className="text-5xl font-bold text-center py-8 md:my-[4rem] my-[2rem]">
-            Check out our <span className="text-[#f2be22]">courses</span>
-          </h1>
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <img src={homeImg} alt="/" />
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <MdAccountBox
