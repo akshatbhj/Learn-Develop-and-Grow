@@ -1,8 +1,6 @@
 import React from "react";
-import homeVideo from "../assets/video/homeVideo.mp4"; // Sample Video
+import homeVideo from "../assets/video/homeVideo.mp4";
 import homeImg from "../assets/image/courses.jpg";
-// import profPic from "../assets/image/pic1.jpg";
-// import profPic2 from "../assets/image/pic2.jpg";
 import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import comm1 from "../assets/image/comm1.jpeg";
@@ -14,36 +12,6 @@ const Home = () => {
     review:
       '"Great leaders are not born they are made through challenges, obstacles and hardships."',
   };
-
-  // const [activeIndex, setActiveIndex] = useState(null);
-
-  // const faqData = [
-  //   {
-  //     question: "What is the fees structure?",
-  //     answer: "Rs. 500 per month, it is negotiable.",
-  //   },
-  //   {
-  //     question: "What is the duration of this course?",
-  //     answer: "1 year, Personality Development is a never ending process.",
-  //   },
-  //   {
-  //     question: "When is the class provided?",
-  //     answer: "Every Sunday.",
-  //   },
-  //   {
-  //     question: "What is the timing for the class?",
-  //     answer: "8am to 11am.",
-  //   },
-  //   {
-  //     question: "Where it is located?",
-  //     answer:
-  //       "Panch Masjid Road,Thakurpukur bazar, Kolkata, West Bengal - 700063.",
-  //   },
-  // ];
-
-  // const toggleAccordion = (index) => {
-  //   setActiveIndex(activeIndex === index ? null : index);
-  // };
 
   return (
     <>
@@ -161,54 +129,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="w-full py-[4rem] pb-[2rem] bg-[#000300]">
-        <h1 className="text-[#f2be22] text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
-          Testimonials
-        </h1>
-        <div className="bg-[#000300] py-8">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
-                <div className="flex items-center mb-4">
-                  <img
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                    src={profPic}
-                    alt="/"
-                  />
-                  <div>
-                    <h4 className="text-lg font-bold text-[#f2be22]">
-                      Shuvajit Patra
-                    </h4>
-                  </div>
-                </div>
-                <p className="text-gray-800 font-bold text-2xl ">
-                  "Learn Develop Grow has helped me gain confidence and unlock
-                  my potential in ways I never thought possible."
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md shadow-[#f2be22]">
-                <div className="flex items-center mb-4">
-                  <img
-                    className="w-12 h-12 rounded-full mr-4 bg-white"
-                    src={profPic2}
-                    alt="/"
-                  />
-                  <div>
-                    <h4 className="text-lg font-bold text-[#f2be22]">
-                      Nasuil Gazi
-                    </h4>
-                  </div>
-                </div>
-                <p className="text-gray-800 font-bold text-2xl">
-                  "I love the personalized approach to development that Learn
-                  Develop Grow offers. It's truly changed the way I see myself
-                  and my goals."
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="w-full pt-[2rem] pb-[2rem] px-4 bg-white">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
           <div className="w-full flex flex-col p-4 my-4 rounded-lg">
@@ -233,60 +153,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container mx-auto px-4 py-8">
-        <h2 className="text-[#f2be22] text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
-          FAQ's
-        </h2>
-        <div className="grid grid-cols-1 gap-6">
-          {faqData.map((faq, index) => (
-            <div
-              key={index}
-              className={`bg-[#202020] text-[#f2be22] rounded-lg shadow-md p-6 ${
-                activeIndex === index ? "bg-white-100" : ""
-              }`}
-            >
-              <button
-                className="flex items-center justify-between w-full focus:outline-none"
-                onClick={() => toggleAccordion(index)}
-              >
-                <span className="text-lg font-medium">{faq.question}</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className={`h-6 w-6 transform ${
-                    activeIndex === index ? "rotate-180" : ""
-                  }`}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </button>
-              {activeIndex === index && (
-                <div className="mt-4">
-                  <p className="text-white font-bold">{faq.answer}</p>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      </div> */}
-      {/* <div className="google-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.1870298234118!2d88.30717294477245!3d22.46415867977324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a8ba16f9511%3A0xa766c9189ed14f7d!2sThakurpukur!5e0!3m2!1sen!2sin!4v1689411779422!5m2!1sen!2sin"
-          width="400"
-          height="300"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Address"
-        ></iframe>
-      </div> */}
     </>
   );
 };
