@@ -78,10 +78,10 @@ const FAQSection = () => {
       </div>
       <div className="google-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.1870298234118!2d88.30717294477245!3d22.46415867977324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a8ba16f9511%3A0xa766c9189ed14f7d!2sThakurpukur!5e0!3m2!1sen!2sin!4v1689411779422!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.0412578479422!2d88.30238167368245!3d22.465083836905468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a8ad635ad0f%3A0x86eee5e58ff62234!2sBarisha%20jama%20Masjid!5e0!3m2!1sen!2sin!4v1689491433493!5m2!1sen!2sin"
           width="400"
           height="300"
-          allowFullScreen
+          allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title="Address"
