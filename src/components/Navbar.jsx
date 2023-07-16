@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/image/logo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,6 +20,11 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-10 bg-[#000300] flex justify-between text-white items-center h-24 w-full mx-auto px-4">
+      <img
+        src={logo}
+        alt="/"
+        className="mx-auto bg-white w-12 h-12 ml-2 mr-4 rounded-full"
+      />
       <h1 className="w-full text-xl md:text-2xl lg:text-3xl font-bold text-[#f2be22]">
         {logoText}
         <span>

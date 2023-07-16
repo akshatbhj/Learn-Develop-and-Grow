@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { MdAccountBox } from "react-icons/md";
+// import { MdAccountBox } from "react-icons/md";
+import logo from "../assets/image/logo.jpg";
+
 
 const SignIn = () => {
   const [username, setUsername] = useState("");
@@ -17,7 +19,8 @@ const SignIn = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-white py-4 px-4">
       <div className="w-full max-w-md mt-24">
-        <MdAccountBox width={100} fontSize={75} className="mx-auto bg-white" />
+        {/* <MdAccountBox width={100} fontSize={75} className="mx-auto bg-white" /> */}
+        <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full" />
         <form
           onSubmit={handleSubmit}
           className="w-full shadow-xl flex flex-col p-4 rounded-lg px-6 py-8 mx-auto my-auto"

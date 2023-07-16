@@ -4,6 +4,7 @@ import homeImg from "../assets/image/courses.jpg";
 import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import comm1 from "../assets/image/comm1.jpeg";
+import logo from "../assets/image/logo.jpg";
 
 const Home = () => {
   const professorReview = {
@@ -86,11 +87,7 @@ const Home = () => {
             <img src={homeImg} alt="/" />
           </div>
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-            <MdAccountBox
-              width={100}
-              fontSize={75}
-              className="mx-auto mt-[-3rem] bg-white"
-            />
+            <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full" />
             <h1 className="text-3xl font-bold text-center py-8">Standard</h1>
             <p className="text-4xl text-center font-bold">Rs 3000/-</p>
             <div className="text-center font-medium">
@@ -107,11 +104,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-            <MdAccountBox
-              width={100}
-              fontSize={75}
-              className="mx-auto mt-[-3rem] bg-white"
-            />
+            <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full" />
             <h1 className="text-3xl font-bold text-center py-8">Premium</h1>
             <p className="text-4xl text-center font-bold">Rs 6000/-</p>
             <div className="text-center font-medium">
