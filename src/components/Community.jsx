@@ -1,20 +1,21 @@
 import React from "react";
-import comm1 from "../assets/image/comm1.jpeg";
 import comm2 from "../assets/image/comm2.jpeg";
 import comm3 from "../assets/image/comm3.jpeg";
 import comm4 from "../assets/image/comm4.jpeg";
-import { NavLink } from "react-router-dom";
 
 const Community = () => {
   return (
     <>
       <div className="w-full pt-[2rem] pb-[2rem] px-4 bg-white">
+        <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem] mt-4 ">
+          Why choose{" "} <span className="text-[#f2be22]">us?</span>
+        </h1>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
           <div className="w-full shadow-xl flex flex-col p-4 my-auto mx-auto rounded-3xl relative h-0 pb-[75%]">
             <img
               src={comm2}
               alt="/"
-              className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl  p-12"
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl"
             />
           </div>
           <div className="w-full flex flex-col p-4 my-2 rounded-lg">

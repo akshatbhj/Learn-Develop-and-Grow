@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import homeVideo from "../assets/video/homeVideo.mp4"; // Sample Video
 import homeImg from "../assets/image/courses.jpg";
-import profPic from "../assets/image/pic1.jpg";
-import profPic2 from "../assets/image/pic2.jpg";
+// import profPic from "../assets/image/pic1.jpg";
+// import profPic2 from "../assets/image/pic2.jpg";
 import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import comm1 from "../assets/image/comm1.jpeg";
@@ -15,35 +15,35 @@ const Home = () => {
       '"Great leaders are not born they are made through challenges, obstacles and hardships."',
   };
 
-  const [activeIndex, setActiveIndex] = useState(null);
+  // const [activeIndex, setActiveIndex] = useState(null);
 
-  const faqData = [
-    {
-      question: "What is the fees structure?",
-      answer: "Rs. 500 per month, it is negotiable.",
-    },
-    {
-      question: "What is the duration of this course?",
-      answer: "1 year, Personality Development is a never ending process.",
-    },
-    {
-      question: "When is the class provided?",
-      answer: "Every Sunday.",
-    },
-    {
-      question: "What is the timing for the class?",
-      answer: "8am to 11am.",
-    },
-    {
-      question: "Where it is located?",
-      answer:
-        "Panch Masjid Road,Thakurpukur bazar, Kolkata, West Bengal - 700063.",
-    },
-  ];
+  // const faqData = [
+  //   {
+  //     question: "What is the fees structure?",
+  //     answer: "Rs. 500 per month, it is negotiable.",
+  //   },
+  //   {
+  //     question: "What is the duration of this course?",
+  //     answer: "1 year, Personality Development is a never ending process.",
+  //   },
+  //   {
+  //     question: "When is the class provided?",
+  //     answer: "Every Sunday.",
+  //   },
+  //   {
+  //     question: "What is the timing for the class?",
+  //     answer: "8am to 11am.",
+  //   },
+  //   {
+  //     question: "Where it is located?",
+  //     answer:
+  //       "Panch Masjid Road,Thakurpukur bazar, Kolkata, West Bengal - 700063.",
+  //   },
+  // ];
 
-  const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+  // const toggleAccordion = (index) => {
+  //   setActiveIndex(activeIndex === index ? null : index);
+  // };
 
   return (
     <>
@@ -58,15 +58,15 @@ const Home = () => {
             className="rounded-[3%] mx-auto my-4 -z-10 "
           ></video>
           <div className="flex flex-col justify-center items-center">
-            <p className="text-[#f2be22] font-bold lg:text-5xl lg:p-8 md:text-4xl sm:text-3xl text-4xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
+            <p className="text-[#f2be22] font-bold lg:text-6xl lg:p-8 md:text-4xl sm:text-3xl text-4xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
               Improve Your Skills Faster
             </p>
-            <p className="font-bold text-gray-500 lg:pb-4 md:text-2xl text-xl md:ml-8 mx-4 mt-4 md:mt-2 sm:mx-8">
+            <p className="font-bold text-gray-500 lg:pb-4 md:text-2xl text-2xl md:ml-8 mx-4 mt-8 md:mt-2 sm:mx-8">
               Speed up the skill acquisition process by finding unlimited
               courses that matches your niche.
             </p>
             <NavLink to="/signup">
-              <button className="bg-[#f2be22] w-[200px] rounded-md my-6 mx-auto font-semibold py-3 text-black md:mx-0 hover:text-white hover:scale-105 duration-150 mt-6 sm:mt-6 md:mt-4 lg:mt-2">
+              <button className="bg-[#f2be22] w-[200px] rounded-md my-6 mx-auto font-semibold py-3 text-black md:mx-0 hover:text-white hover:scale-105 duration-150 mt-16 sm:mt-6 md:mt-4 lg:mt-2">
                 Get in touch
               </button>
             </NavLink>
@@ -76,8 +76,8 @@ const Home = () => {
 
       <div className="w-full pt-[6rem] pb-[2rem] px-4 bg-white">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-">
-          <div className="w-full flex flex-col p-4 my-4 rounded-lg">
-            <h1 className="text-5xl font-bold text-left py-4 md:my-[2rem] my-[1rem] leading-tight">
+          <div className="w-full flex flex-col p-4 my-2 rounded-lg">
+            <h1 className="text-5xl font-bold text-left py-2 md:my-[2rem] my-[1rem] leading-tight">
               Unleash your potential with{" "}
               <span className="text-[#f2be22] ">Learn Develop Grow.</span>
             </h1>
@@ -85,11 +85,19 @@ const Home = () => {
               Our site offers the inspiration and resources you need to develop
               yourself and reach your goals.
             </p>
-            <NavLink to="/signup">
-              <button className="w-full p-2 bg-[#f2be22] text-black font-bold mt-4 rounded-lg md:w-[30%] text-center hover:scale-105 duration-150">
-                Get in touch
+            <div className="flex items-center mt-6">
+              <input
+                type="email"
+                class="w-full sm:w-auto px-4 py-2 rounded-l-lg border border-gray-300 focus:outline-none"
+                placeholder="Email address"
+              />
+              <button
+                type="submit"
+                class="ml-2 px-4 py-2 rounded-r-lg bg-[#f2be22] font-bold text-black hover:opacity-80"
+              >
+                Submit
               </button>
-            </NavLink>
+            </div>
           </div>
           <div className="relative flex items-center justify-end w-full h-0 pb-[75%] rounded-r-lg">
             <img
@@ -152,7 +160,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-full py-[4rem] pb-[2rem] bg-[#000300]">
+      {/* <div className="w-full py-[4rem] pb-[2rem] bg-[#000300]">
         <h1 className="text-[#f2be22] text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
           Testimonials
         </h1>
@@ -199,7 +207,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="w-full pt-[2rem] pb-[2rem] px-4 bg-white">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
           <div className="w-full flex flex-col p-4 my-4 rounded-lg">
@@ -224,7 +232,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 py-8">
+      {/* <div className="container mx-auto px-4 py-8">
         <h2 className="text-[#f2be22] text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
           FAQ's
         </h2>
@@ -266,8 +274,8 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className="google-map">
+      </div> */}
+      {/* <div className="google-map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.1870298234118!2d88.30717294477245!3d22.46415867977324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a8ba16f9511%3A0xa766c9189ed14f7d!2sThakurpukur!5e0!3m2!1sen!2sin!4v1689411779422!5m2!1sen!2sin"
           width="400"
@@ -277,7 +285,7 @@ const Home = () => {
           referrerPolicy="no-referrer-when-downgrade"
           title="Address"
         ></iframe>
-      </div>
+      </div> */}
     </>
   );
 };
