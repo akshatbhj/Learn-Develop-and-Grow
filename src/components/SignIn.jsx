@@ -19,7 +19,6 @@ const SignIn = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-white py-4 px-4">
       <div className="w-full max-w-md mt-24">
-        {/* <MdAccountBox width={100} fontSize={75} className="mx-auto bg-white" /> */}
         <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full" />
         <form
           onSubmit={handleSubmit}

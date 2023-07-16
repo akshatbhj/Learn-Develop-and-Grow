@@ -66,10 +66,10 @@ const Navbar = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className="w-[75%] text-0.5xl lg: font-bold text-[#f2be22] m-4">
+        {/* <h1 className="w-[75%] text-0.5xl lg: font-bold text-[#f2be22] m-4">
           Learn Develop and Grow
-        </h1>
-
+        </h1> */}
+        <img src={logo} alt="/" className="ml-8 mt-[1rem] bg-white w-16 h-16" />
         <ul className="uppercase p-4 h-[50%] z-10">
           <NavLink to="/">
             <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[#f2be22]">
@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
           </NavLink>
           <NavLink to="/signup">
-            <button className="p-2 my-8 mx-auto w-full bg-transparent text-[#f2be22] border-4 border-[#f2be22] font-bold rounded-md hover:text-white">
+            <button className="p-2 my-8 mx-auto w-full bg-transparent text-[#f2be22] border-2 border-[#f2be22] font-bold rounded-md hover:text-white">
               Sign Up
             </button>
           </NavLink>
