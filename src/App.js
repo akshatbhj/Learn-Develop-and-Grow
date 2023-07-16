@@ -10,6 +10,7 @@ import FAQSection from "./components/FAQ";
 import ProfessorReviewSection from "./components/ProfessorReview";
 import Community from "./components/Community";
 import Connect from "./components/Connect";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           {/* <Route path="/faqsection" element={<FAQSection />}></Route> */}
           <Route path="/professorreviewsection" element={<ProfessorReviewSection />}></Route>
         </Routes>
+        <Contact />
         <Community />
         <Testimonials />
         <FAQSection />
