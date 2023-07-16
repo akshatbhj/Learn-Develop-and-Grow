@@ -14,18 +14,24 @@ const Footer = () => {
           your journey now!
         </p>
         <div className="flex justify-between lg:w-[100%] md:w-[50%]  my-6">
-          <FaFacebook
-            size={30}
-            className="hover:scale-110 duration-200 hover:cursor-pointer"
-          />
-          <FaInstagram
-            size={30}
-            className="hover:scale-110 duration-200 hover:cursor-pointer"
-          />
-          <FaTwitter
-            size={30}
-            className="hover:scale-110 duration-200 hover:cursor-pointer"
-          />
+          <a href="https://www.facebook.com/">
+            <FaFacebook
+              size={30}
+              className="hover:scale-110 duration-200 hover:cursor-pointer"
+            />
+          </a>
+          <a href="https://www.instagram.com/">
+            <FaInstagram
+              size={30}
+              className="hover:scale-110 duration-200 hover:cursor-pointer"
+            />
+          </a>
+          <a href="https://www.twitter.com/">
+            <FaTwitter
+              size={30}
+              className="hover:scale-110 duration-200 hover:cursor-pointer"
+            />
+          </a>
           <FaWhatsapp
             size={30}
             className="hover:scale-110 duration-200 hover:cursor-pointer"

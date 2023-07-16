@@ -50,12 +50,13 @@ const Home = () => {
       <div className="w-full py-[4rem] lg:mt-[4rem] mb-[4rem] lg:mb-[1rem]  px-4 h-screen">
         <div className="max-w-full mx-auto grid lg:grid-cols-2 items-center py-4 md:py-4">
           <video
+            controls
             muted
-            loop
             autoPlay
+            loop
             src={homeVideo}
             width="500"
-            className="rounded-[3%] mx-auto my-4 -z-10 "
+            className="rounded-[3%] mx-auto my-4"
           ></video>
           <div className="flex flex-col justify-center items-center">
             <p className="text-[#f2be22] font-bold lg:text-6xl lg:p-8 md:text-4xl sm:text-3xl text-4xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">

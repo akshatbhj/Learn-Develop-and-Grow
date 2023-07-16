@@ -64,7 +64,7 @@ const Navbar = () => {
           Learn Develop and Grow
         </h1>
 
-        <ul className="uppercase p-4 h-[50%]">
+        <ul className="uppercase p-4 h-[50%] z-10">
           <NavLink to="/">
             <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[#f2be22]">
               Home
