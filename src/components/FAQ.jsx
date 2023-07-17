@@ -34,14 +34,14 @@ const FAQSection = () => {
   return (
     <>
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-[#f2be22] text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
+        <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem]">
           FAQ's
         </h2>
         <div className="grid grid-cols-1 gap-6">
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className={`bg-[#202020] text-[#f2be22] rounded-lg shadow-md p-6 ${
+              className={`bg-[#202020] text-[white] rounded-lg shadow-md p-6 ${
                 activeIndex === index ? "bg-white-100" : ""
               }`}
             >
