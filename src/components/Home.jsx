@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="w-full py-[4rem] lg:mt-[4rem] mb-[4rem] lg:mb-[1rem]  px-4 h-screen">
+      <div className="w-full py-[4rem] lg:mt-[4rem] mb-[4rem] lg:mb-[1rem]  px-4 h-screen mt-10 ">
         <div className="max-w-full mx-auto grid lg:grid-cols-2 items-center py-4 md:py-4">
           <video
             controls
