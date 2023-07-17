@@ -1,5 +1,4 @@
 import React from "react";
-import { MdAccountBox } from "react-icons/md";
 import logo from "../assets/image/logo.jpg";
 
 

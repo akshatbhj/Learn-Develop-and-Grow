@@ -19,7 +19,7 @@ const SignIn = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-white py-4 px-4">
       <div className="w-full max-w-md mt-24">
-        <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full" />
+        <img src={logo} alt="/" className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-sm" />
         <form
           onSubmit={handleSubmit}
           className="w-full shadow-xl flex flex-col p-4 rounded-lg px-6 py-8 mx-auto my-auto"
@@ -62,7 +62,7 @@ const SignIn = () => {
           </div>
           <div className="grid grid-rows-2">
             <button
-              className="bg-[#f2be22] hover:opacity-80 text-black font-bold px-10  mx-6 rounded"
+              className="bg-[red] hover:opacity-80 text-white font-bold px-10  mx-6 rounded"
               type="submit"
             >
               Sign In

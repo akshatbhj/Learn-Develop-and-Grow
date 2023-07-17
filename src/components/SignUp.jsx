@@ -24,7 +24,7 @@ const SignUp = () => {
         <img
           src={logo}
           alt="/"
-          className="mx-auto mt-[-1rem] bg-white w-20 h-20 rounded-full"
+          className="mx-auto mt-[-1rem] bg-white w-20 h-20 rounded-sm"
         />
 
         <form
@@ -87,7 +87,7 @@ const SignUp = () => {
           </div>
           <div className="grid grid-rows-2">
             <button
-              className="bg-[#f2be22] hover:opacity-80 text-black font-bold  px-10  mx-6 rounded-md"
+              className="bg-[red] hover:opacity-80 text-white font-bold  px-10  mx-6 rounded-md"
               type="submit"
             >
               Sign Up
