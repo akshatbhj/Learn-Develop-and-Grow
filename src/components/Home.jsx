@@ -81,7 +81,7 @@ const Home = () => {
             <img
               src={logo}
               alt="/"
-              className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full"
+              className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-sm"
             />
             <h1 className="text-3xl font-bold text-center py-8">Standard</h1>
             <p className="text-4xl text-center font-bold">
@@ -104,7 +104,7 @@ const Home = () => {
             <img
               src={logo}
               alt="/"
-              className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-full"
+              className="mx-auto mt-[-3rem] bg-white w-20 h-20 rounded-sm"
             />
             <h1 className="text-3xl font-bold text-center py-8">Premium</h1>
             <p className="text-4xl text-center font-bold">

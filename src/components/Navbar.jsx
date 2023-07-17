@@ -23,7 +23,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="/"
-          className="mx-auto bg-white w-12 h-12 ml-2 mr-4 rounded-full"
+          className="mx-auto bg-white w-12 h-12 ml-2 mr-4 rounded-sm"
         />
       <div className="mr-24 lg:mr-[18rem] " >
         <h1 className="w-full text-[15px] md:text-[16px] lg:text-3xl font-extrabold text-white">
