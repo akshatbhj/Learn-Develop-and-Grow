@@ -1,40 +1,28 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaYoutube, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#f2be22]">
-          Learn Develop and Grow
+        <h1 className="w-full text-3xl font-bold text-white">
+          Learn Develop &{" "} <span className="text-[red]" >Grow</span>
         </h1>
         <p className="py-4">
           Empower yourself through personal growth. Enhance communication,
           leadership, and self-confidence. Discover your true potential. Start
           your journey now!
         </p>
-        <div className="flex justify-between lg:w-[100%] md:w-[50%]  my-6">
-          <a href="https://www.facebook.com/">
-            <FaFacebook
+        <div className="flex lg:w-[100%] md:w-[50%] my-6">
+          <a href="https://youtube.com/@LEARNDEVELOPGROW">
+            <FaYoutube
               size={30}
-              className="hover:scale-110 duration-200 hover:cursor-pointer"
-            />
-          </a>
-          <a href="https://www.instagram.com/">
-            <FaInstagram
-              size={30}
-              className="hover:scale-110 duration-200 hover:cursor-pointer"
-            />
-          </a>
-          <a href="https://www.twitter.com/">
-            <FaTwitter
-              size={30}
-              className="hover:scale-110 duration-200 hover:cursor-pointer"
+              className="hover:scale-110 duration-200 hover:cursor-pointer mr-5"
             />
           </a>
           <FaWhatsapp
             size={30}
-            className="hover:scale-110 duration-200 hover:cursor-pointer"
+            className="hover:scale-110 duration-200 hover:cursor-pointer ml-5"
           />
         </div>
       </div>
@@ -78,18 +66,6 @@ const Footer = () => {
           <ul>
             <li className="py-2 text-sm hover:text-gray-600 hover:cursor-pointer">
               About
-            </li>
-            <li className="py-2 text-sm hover:text-gray-600 hover:cursor-pointer">
-              Blog
-            </li>
-            <li className="py-2 text-sm hover:text-gray-600 hover:cursor-pointer">
-              Press
-            </li>
-            <li className="py-2 text-sm hover:text-gray-600 hover:cursor-pointer">
-              Careers
-            </li>
-            <li className="py-2 text-sm hover:text-gray-600 hover:cursor-pointer">
-              Jobs
             </li>
           </ul>
         </div>

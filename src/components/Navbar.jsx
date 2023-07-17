@@ -60,7 +60,7 @@ const Navbar = () => {
       </ul>
       <div
         onClick={handleNav}
-        className="block md:hidden hover:cursor-pointer hover:text-[#f2be22]"
+        className="block md:hidden hover:cursor-pointer hover:text-[red]"
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
@@ -74,22 +74,22 @@ const Navbar = () => {
         <img src={logo} alt="/" className="ml-8 mt-[1rem] bg-white w-16 h-16" />
         <ul className="uppercase p-4 h-[50%] z-10">
           <NavLink to="/">
-            <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[#f2be22]">
+            <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[red]">
               Home
             </li>
           </NavLink>
           <NavLink to="/courses">
-            <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[#f2be22]">
+            <li className="p-4 border-b border-b-gray-600 hover:cursor-pointer hover:text-[red]">
               Courses
             </li>
           </NavLink>
           <NavLink to="/signup">
-            <button className="p-2 my-8 mx-auto w-full bg-transparent text-[#f2be22] border-2 border-[#f2be22] font-bold rounded-md hover:text-white">
+            <button className="p-2 my-8 mx-auto w-full bg-transparent text-white border-2 border-[red] font-bold rounded-md hover:text-white">
               Sign Up
             </button>
           </NavLink>
           <NavLink to="/signin">
-            <button className="p-2 mx-auto w-full bg-[#f2be22] text-black font-bold rounded-md hover:text-white">
+            <button className="p-2 mx-auto w-full bg-[red] text-white font-bold rounded-md hover:text-white">
               Sign In
             </button>
           </NavLink>
