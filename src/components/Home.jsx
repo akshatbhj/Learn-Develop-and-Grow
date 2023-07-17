@@ -28,15 +28,15 @@ const Home = () => {
             className="rounded-[3%] mx-auto my-4"
           ></video>
           <div className="flex flex-col justify-center items-center">
-            <p className="text-[#f2be22] font-bold lg:text-6xl lg:p-8 md:text-4xl sm:text-3xl text-4xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
-              Improve Your Skills Faster
+            <p className="text-white font-bold lg:text-4xl lg:p-8 md:text-3xl md:text-center lg:text-left sm:text-3xl text-2xl py-2 mt-4 md:mt-2 mx-4 lg:mx-auto">
+              UNLEASH & EMPOWER YOUR TRUE POTENTIAL WITH LEARN DEVELOP &{" "} <span className="text-[red] font-extrabold" >GROW</span>
             </p>
-            <p className="font-bold text-gray-500 lg:pb-4 md:text-2xl text-2xl md:ml-8 mx-4 mt-8 md:mt-2 sm:mx-8">
+            <p className="font-bold text-gray-500 lg:pb-4 md:text-xl text-2xl md:ml-8 mx-4 mt-8 md:mt-2 sm:mx-8">
               Speed up the skill acquisition process by finding unlimited
               courses that matches your niche.
             </p>
             <NavLink to="/signup">
-              <button className="bg-[#f2be22] w-[200px] rounded-md my-6 mx-auto font-semibold py-3 text-black md:mx-0 hover:text-white hover:scale-105 duration-150 mt-16 sm:mt-6 md:mt-4 lg:mt-2">
+              <button className="bg-[red] w-[200px] rounded-md my-6 mx-auto font-bold py-3 text-white md:mx-0 hover:text-white hover:scale-105 duration-150 mt-16 sm:mt-6 md:mt-4 lg:mt-2">
                 Get in touch
               </button>
             </NavLink>
