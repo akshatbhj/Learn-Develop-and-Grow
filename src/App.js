@@ -24,13 +24,11 @@ function App() {
           <Route path="/courses" element={<Courses />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
-          {/* <Route path="/testimonials" element={<Testimonials />}></Route> */}
-          {/* <Route path="/faqsection" element={<FAQSection />}></Route> */}
-          <Route path="/professorreviewsection" element={<ProfessorReviewSection />}></Route>
+          <Route path="/community" element={<Community />}></Route>
         </Routes>
         <Contact />
-        <Community />
         <Testimonials />
+        <ProfessorReviewSection />
         <FAQSection />
         <Footer />
       </BrowserRouter>

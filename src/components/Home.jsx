@@ -1,19 +1,13 @@
 import React from "react";
 import homeVideo from "../assets/video/homeVideo.mp4";
-import homeImg from "../assets/image/courses.jpg";
-import { MdAccountBox } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import comm1 from "../assets/image/comm1.jpeg";
 import logo from "../assets/image/logo.jpg";
+import comm2 from "../assets/image/comm2.jpeg";
+import comm3 from "../assets/image/comm3.jpeg";
+import comm4 from "../assets/image/comm4.jpeg";
 
 const Home = () => {
-  const professorReview = {
-    name: "Professor Firoz",
-    course: "",
-    review:
-      '"Great leaders are not born they are made through challenges, obstacles and hardships."',
-  };
-
   return (
     <>
       <div className="w-full py-[4rem] lg:mt-[4rem] mb-[4rem] lg:mb-[1rem]  px-4 h-screen mt-10 ">
@@ -133,25 +127,62 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full pt-[2rem] pb-[2rem] px-4 bg-white">
+        <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-[3rem] mt-4 ">
+          Why choose <span className="text-[red]">us?</span>
+        </h1>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
-          <div className="w-full flex flex-col p-4 my-4 rounded-lg">
-            <h1 className="text-5xl font-bold text-center py-4 md:my-[4rem] my-[2rem] leading-snug">
-              Start your personal growth journey with{" "}
-              <span className="text-[#f2be22] ">Learn Develop Grow today.</span>
-            </h1>
-          </div>
-          <div className="w-full shadow-xl flex flex-col p-4 my-auto mx-auto rounded-lg">
-            <MdAccountBox
-              width={100}
-              fontSize={75}
-              className="mx-auto mt-[-3rem] bg-white"
+          <div className="w-full shadow-xl flex flex-col p-4 my-auto mx-auto rounded-3xl relative h-0 pb-[75%]">
+            <img
+              src={comm2}
+              alt="/"
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl"
             />
-            <p className="text-2xl text-center font-bold  border-t p-8 mt-[3rem] italic">
-              {professorReview.review}
+          </div>
+          <div className="w-full flex flex-col p-4 my-2 rounded-lg">
+            <h1 className="text-5xl font-bold text-left py-4 md:my-[3rem]">
+              Personalized development plans.
+            </h1>
+            <p className="font-bold text-gray-500 mt-4 md:mt-0 md:text-2xl">
+              Learn Develop Grow helps you build a personalized development plan
+              based on your unique personality and goals. We'll guide you
+              through exercises and activities based on your needs.
             </p>
-            <p class="py-4 mx-auto text-xl text-[#f2be22] font-bold border-b text-center">
-              {" "}
-              - Professor Firoz
+          </div>
+
+          <div className="w-full flex flex-col p-4 my-2 rounded-lg">
+            <h1 className="text-5xl font-bold text-left py-4 md:my-[3rem]">
+              Motivating content.
+            </h1>
+            <p className="font-bold text-gray-500 mt-4 md:mt-0 md:text-2xl">
+              Our website features articles, videos, and podcasts from industry
+              experts and successful individuals aimed at motivating and
+              inspiring you to take action and achieve new levels of growth and
+              development.
+            </p>
+          </div>
+          <div className="w-full shadow-xl flex flex-col p-4 my-auto mx-auto rounded-3xl relative h-0 pb-[75%]">
+            <img
+              src={comm3}
+              alt="/"
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl"
+            />
+          </div>
+          <div className="w-full shadow-xl flex flex-col p-4 my-auto mx-auto rounded-3xl relative h-0 pb-[75%]">
+            <img
+              src={comm4}
+              alt="/"
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl"
+            />
+          </div>
+          <div className="w-full flex flex-col p-4 my-2 rounded-lg">
+            <h1 className="text-5xl font-bold text-left py-4 md:my-[3rem]">
+              Community support.
+            </h1>
+            <p className="font-bold text-gray-500 mt-4 md:mt-0 md:text-2xl">
+              Join our community to interact with other like-minded individuals
+              and receive support from our team of experts. Share your
+              experiences, challenges, and successes on your journey to personal
+              growth.
             </p>
           </div>
         </div>
